@@ -3,6 +3,12 @@
 This is the official PyTorch implementation of the density-based anomaly detector "MULDE" which is trained via score matching. The anomaly detector is proposed in the paper 
 [MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection](https://arxiv.org/abs/2403.14497) presented at CVPR 2024.
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-on-ucsd-ped2)](https://paperswithcode.com/sota/anomaly-detection-on-ucsd-ped2?p=mulde-multiscale-log-density-estimation-via)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-on-chuk-avenue)](https://paperswithcode.com/sota/anomaly-detection-on-chuk-avenue?p=mulde-multiscale-log-density-estimation-via)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-on-shanghaitech)](https://paperswithcode.com/sota/anomaly-detection-on-shanghaitech?p=mulde-multiscale-log-density-estimation-via)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-on-ubnormal)](https://paperswithcode.com/sota/anomaly-detection-on-ubnormal?p=mulde-multiscale-log-density-estimation-via)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-in-surveillance-videos-on)](https://paperswithcode.com/sota/anomaly-detection-in-surveillance-videos-on?p=mulde-multiscale-log-density-estimation-via)
+
 ## Install
 
 We recommend to run the code in a virtual environment or a conda environment.
