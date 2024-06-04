@@ -9,6 +9,8 @@ This is the official PyTorch implementation of the density-based anomaly detecto
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-on-ubnormal)](https://paperswithcode.com/sota/anomaly-detection-on-ubnormal?p=mulde-multiscale-log-density-estimation-via)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-in-surveillance-videos-on)](https://paperswithcode.com/sota/anomaly-detection-in-surveillance-videos-on?p=mulde-multiscale-log-density-estimation-via)
 
+[![MULDE-short-video](https://img.youtube.com/vi/WoYCf9NWQmQ/0.jpg)](https://www.youtube.com/watch?v=WoYCf9NWQmQ)
+
 ## Install
 
 We recommend to run the code in a virtual environment or a conda environment.
