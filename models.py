@@ -55,6 +55,8 @@ class ScoreOrLogDensityNetwork(nn.Module):
         For standard MULDE use ScoreOrLogDensityNetwork(MLPs(input_dim=d+1, output_dim=1, units=[4096, 4096]))
         For MSMA/NCSN use ScoreOrLogDensityNetwork(MLPs(input_dim=d+1, output_dim=d, units=[4096, 4096]), use score_network=True)
 
+        Multiscale extension to: https://github.com/Ending2015a/toy_gradlogp/tree/master
+
         Args:
             net (nn.Module): An log-density function, the output shape of
                 the log-density function should be (b, 1). The score is
@@ -81,7 +83,7 @@ class ScoreOrLogDensityNetwork(nn.Module):
             x = x.requires_grad_()
             log_density = self.network(x)
             logp = -log_density.sum()
-            score = torch.autograd.grad(logp, x, create_graph=True)[0]  # grad(-E(x))
+            score = torch.autograd.grad(logp, x, create_graph=True)[0]  # grad(-log-density(x))
 
         if return_log_density:
             return score, log_density
