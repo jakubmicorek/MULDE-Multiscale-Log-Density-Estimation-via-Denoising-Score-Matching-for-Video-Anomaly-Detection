@@ -1,7 +1,7 @@
 ## MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection
 
 This is the official PyTorch implementation of the density-based anomaly detector "MULDE" which is trained via score matching. The anomaly detector is proposed in the paper 
-[MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection](https://arxiv.org/abs/2403.14497) presented at CVPR 2024.
+[MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection](https://openaccess.thecvf.com/content/CVPR2024/html/Micorek_MULDE_Multiscale_Log-Density_Estimation_via_Denoising_Score_Matching_for_Video_CVPR_2024_paper.html) presented at CVPR 2024.
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-on-ucsd-ped2)](https://paperswithcode.com/sota/anomaly-detection-on-ucsd-ped2?p=mulde-multiscale-log-density-estimation-via)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mulde-multiscale-log-density-estimation-via/anomaly-detection-on-chuk-avenue)](https://paperswithcode.com/sota/anomaly-detection-on-chuk-avenue?p=mulde-multiscale-log-density-estimation-via)
@@ -51,7 +51,9 @@ If you find this work useful, please consider citing:
 @inproceedings{micorek24mulde,
   title = {{MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection}},
   author = {Micorek, Jakub and Possegger, Horst and Narnhofer, Dominik and Bischof, Horst and Kozi{\'n}ski, Mateusz},
-  booktitle = {Proc. of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year = {2024}
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {18868-18877}
 }
 ```
